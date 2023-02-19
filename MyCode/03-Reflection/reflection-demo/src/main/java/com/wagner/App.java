@@ -12,6 +12,7 @@ public class App {
 
     public static void main(String[] args) {
 
-        logger.info("Hello World!");
+        logger.info("Hello World!{}", App.class);
+        logger.info("{}", Integer.TYPE);
     }
 }
